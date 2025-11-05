@@ -1,37 +1,43 @@
 import { Phone, PhoneOutgoing, Headphones, UserCheck, ShoppingCart, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const services = [
   {
     icon: Phone,
     title: "Inbound Call Center Services",
     description: "Enhance customer satisfaction with round-the-clock query handling and support.",
-    color: "from-blue-500 to-blue-600"
+    color: "from-blue-500 to-blue-600",
+    link: "/services/inbound-call-center"
   },
   {
     icon: PhoneOutgoing,
     title: "Outbound Call Center Services",
     description: "Boost sales and retention through proactive communication and engagement.",
-    color: "from-purple-500 to-purple-600"
+    color: "from-purple-500 to-purple-600",
+    link: "/services/outbound-call-center"
   },
   {
     icon: Headphones,
     title: "Technical Support Services",
     description: "Fast, reliable tech support for your customers, available 24/7.",
-    color: "from-indigo-500 to-indigo-600"
+    color: "from-indigo-500 to-indigo-600",
+    link: "/services/technical-support"
   },
   {
     icon: UserCheck,
     title: "Virtual Assistant Services",
     description: "Hire remote professionals for admin, operations, and CRM tasks.",
-    color: "from-violet-500 to-violet-600"
+    color: "from-violet-500 to-violet-600",
+    link: "/services/virtual-assistant"
   },
   {
     icon: ShoppingCart,
     title: "Order & Sales Support",
     description: "Streamline your order management and post-sales process efficiently.",
-    color: "from-blue-600 to-purple-600"
+    color: "from-blue-600 to-purple-600",
+    link: "/services/order-sales-support"
   }
 ];
 
@@ -75,11 +81,14 @@ const Services = () => {
                 </p>
 
                 <Button 
+                  asChild
                   variant="ghost" 
                   className="mt-4 p-0 h-auto font-semibold text-primary hover:text-primary/80 group-hover:gap-2 transition-all"
                 >
-                  Learn More
-                  <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  <Link to={service.link}>
+                    Learn More
+                    <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </Link>
                 </Button>
               </CardContent>
             </Card>

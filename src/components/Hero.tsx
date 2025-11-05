@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone, MessageCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-customer-support.jpg";
 
 const Hero = () => {
@@ -34,20 +35,26 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button 
+                asChild
                 size="lg" 
                 className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl"
               >
-                Get a Free Consultation
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <Link to="/contact">
+                  Get a Free Consultation
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
               </Button>
               
               <Button 
+                asChild
                 size="lg" 
                 variant="outline" 
                 className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-6 rounded-full transition-all"
               >
-                <Phone className="mr-2 h-5 w-5" />
-                Book a Demo
+                <a href="tel:+912212345678">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call Us Now
+                </a>
               </Button>
             </div>
 

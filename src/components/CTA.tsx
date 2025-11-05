@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageSquare, Calendar } from "lucide-react";
+import { Link } from "react-router-dom";
 import bgPattern from "@/assets/tech-pattern-bg.jpg";
 
 const CTA = () => {
@@ -39,21 +40,27 @@ const CTA = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
             <Button 
+              asChild
               size="lg" 
               className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6 rounded-full shadow-2xl hover:shadow-white/20 transition-all group"
             >
-              <Calendar className="mr-2 h-5 w-5" />
-              Schedule a Free Demo
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              <Link to="/contact">
+                <Calendar className="mr-2 h-5 w-5" />
+                Schedule a Free Demo
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Link>
             </Button>
             
             <Button 
               size="lg" 
               variant="outline"
               className="border-2 border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6 rounded-full transition-all backdrop-blur-sm"
+              asChild
             >
-              <MessageSquare className="mr-2 h-5 w-5" />
-              Chat on WhatsApp
+              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+                <MessageSquare className="mr-2 h-5 w-5" />
+                Chat on WhatsApp
+              </a>
             </Button>
           </div>
 
