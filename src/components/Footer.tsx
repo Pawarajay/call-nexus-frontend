@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-2xl font-heading font-bold gradient-text">
-              Zap Technology
+              CallNexus
             </h3>
             <p className="text-muted-foreground leading-relaxed">
               Leading customer support outsourcing company in India offering 24/7 inbound, outbound, and technical support solutions for global businesses.
@@ -88,7 +88,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                 <span className="text-muted-foreground">
-                  Mumbai, Maharashtra, India
+                  Andhri (east), Business park,  Mumbai, Maharashtra 400069
                 </span>
               </li>
               <li className="flex items-start gap-3">
@@ -97,7 +97,7 @@ const Footer = () => {
                   href="tel:+911234567890" 
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +91 123 456 7890
+                  +91 72085 31038
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -106,7 +106,7 @@ const Footer = () => {
                   href="mailto:contact@zaptechnology.com" 
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  contact@zaptechnology.com
+                  info@Callnexus.in
                 </a>
               </li>
             </ul>
@@ -117,7 +117,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground text-center md:text-left">
-              © {currentYear} Zap Technology. All rights reserved.
+              © {currentYear} CallNexus. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

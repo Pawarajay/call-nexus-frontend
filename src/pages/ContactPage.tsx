@@ -10,19 +10,19 @@ const ContactPage = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 22 1234 5678", "+91 98765 43210"],
-      link: "tel:+912212345678",
+      details: ["+91 72085 31038"],
+      link: "tel:+917208531038",
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["hello@zaptechnology.in", "support@zaptechnology.in"],
-      link: "mailto:hello@zaptechnology.in",
+      details: ["info@Callnexus.in"],
+      link: "mailto:info@Callnexus.in",
     },
     {
       icon: MapPin,
       title: "Office",
-      details: ["123 Business Park, Andheri East", "Mumbai, Maharashtra 400069"],
+      details: ["Andhri (east), Business park,  Mumbai, Maharashtra 400069"],
       link: "https://maps.google.com",
     },
     {
@@ -36,12 +36,12 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | Get Free Consultation - Zap Technology</title>
+        <title>Contact Us | Get Free Consultation - CallNexus</title>
         <meta
           name="description"
-          content="Contact Zap Technology for 24/7 customer support outsourcing solutions. Get a free consultation from India's leading call center and virtual assistant company."
+          content="Contact CallNexus for 24/7 customer support outsourcing solutions. Get a free consultation from India's leading call center and virtual assistant company."
         />
-        <meta name="keywords" content="contact zap technology, customer support consultation, call center quote, outsourcing inquiry mumbai" />
+        <meta name="keywords" content="contact CallNexus, customer support consultation, call center quote, outsourcing inquiry mumbai" />
       </Helmet>
 
       <Navbar />

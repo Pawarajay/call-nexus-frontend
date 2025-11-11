@@ -15,7 +15,7 @@ const About = () => {
           {/* Section Header */}
           <div className="text-center mb-16 animate-fade-in">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-4">
-              About Zap Technology
+              About CallNexus
             </div>
             <h2 className="text-4xl sm:text-5xl font-heading font-bold mb-6">
               Trusted Customer Support{" "}
@@ -26,7 +26,7 @@ const About = () => {
           {/* Story Content */}
           <div className="space-y-8 mb-16 animate-fade-in">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Founded in 2018 with a vision to revolutionize customer support outsourcing, Zap Technology has grown into a trusted partner for businesses worldwide. Our mission is to <strong>empower global businesses through exceptional customer interactions</strong>, combining human expertise with cutting-edge AI technology.
+              Founded in 2018 with a vision to revolutionize customer support outsourcing, CallNexus has grown into a trusted partner for businesses worldwide. Our mission is to <strong>empower global businesses through exceptional customer interactions</strong>, combining human expertise with cutting-edge AI technology.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">

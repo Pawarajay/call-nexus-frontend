@@ -45,7 +45,7 @@ const VirtualAssistant = () => {
   return (
     <>
       <Helmet>
-        <title>Virtual Assistant Services | Remote Admin Support - Zap Technology</title>
+        <title>Virtual Assistant Services | Remote Admin Support - CallNexus</title>
         <meta
           name="description"
           content="Hire professional virtual assistants for administrative, operational, and CRM tasks. Cost-effective remote support to help you focus on growing your business."

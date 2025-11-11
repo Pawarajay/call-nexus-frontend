@@ -19,9 +19,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-left space-y-8 animate-fade-in">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium">
-              <div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-              24/7 Customer Support Solutions
+            <div className="inline-flex items-center gap-2 px-4 py-3 bg-primary/10 rounded-full text-primary text-sm font-medium">
             </div>
             
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-heading font-bold leading-tight">
@@ -51,7 +49,7 @@ const Hero = () => {
                 variant="outline" 
                 className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-6 rounded-full transition-all"
               >
-                <a href="tel:+912212345678">
+                <a href="tel:+917208531038">
                   <Phone className="mr-2 h-5 w-5" />
                   Call Us Now
                 </a>

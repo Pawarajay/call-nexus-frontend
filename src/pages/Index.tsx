@@ -12,7 +12,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Customer Support Outsourcing Company | 24/7 Call Center Solutions – Zap Technology</title>
+        <title>Customer Support Outsourcing Company | 24/7 Call Center Solutions – CallNexus</title>
         <meta
           name="description"
           content="Leading customer support outsourcing company in India offering 24/7 inbound, outbound, and technical support solutions for global businesses. Expert virtual assistants and call center services."

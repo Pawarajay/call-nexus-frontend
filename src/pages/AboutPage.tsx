@@ -48,12 +48,12 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About Zap Technology | Leading Customer Support Outsourcing Company</title>
+        <title>About CallNexus | Leading Customer Support Outsourcing Company</title>
         <meta
           name="description"
-          content="Learn about Zap Technology, Mumbai's premier customer support outsourcing company. Discover our mission, values, and commitment to delivering exceptional 24/7 support services."
+          content="Learn about CallNexus, Mumbai's premier customer support outsourcing company. Discover our mission, values, and commitment to delivering exceptional 24/7 support services."
         />
-        <meta name="keywords" content="about zap technology, customer support company mumbai, call center company india, outsourcing company story" />
+        <meta name="keywords" content="about CallNexus, customer support company mumbai, call center company india, outsourcing company story" />
       </Helmet>
 
       <Navbar />
@@ -103,7 +103,7 @@ const AboutPage = () => {
                 <h2 className="text-4xl font-heading font-bold mb-6">Our Story</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Zap Technology was founded in 2018 with a simple yet powerful vision: to bridge the gap between businesses and their customers through exceptional, technology-enabled support services.
+                    CallNexus was founded in 2018 with a simple yet powerful vision: to bridge the gap between businesses and their customers through exceptional, technology-enabled support services.
                   </p>
                   <p>
                     Starting in Mumbai, we recognized that businesses needed more than just call answering services—they needed a strategic partner who could scale with them, understand their unique challenges, and deliver consistent, high-quality customer experiences.

@@ -26,7 +26,7 @@ const differentiators = [
 
 const testimonials = [
   {
-    quote: "Zap Technology transformed our customer support operations. Their 24/7 service and professional team helped us scale without compromising quality.",
+    quote: "CallNexus transformed our customer support operations. Their 24/7 service and professional team helped us scale without compromising quality.",
     author: "Sarah Johnson",
     position: "Head of Operations, E-commerce Company"
   },
@@ -53,7 +53,7 @@ const WhyChooseUs = () => {
           </div>
           <h2 className="text-4xl sm:text-5xl font-heading font-bold mb-6">
             Why Businesses Choose{" "}
-            <span className="gradient-text">Zap Technology</span>
+            <span className="gradient-text">CallNexus</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Smart, scalable, and technology-driven support that grows with you

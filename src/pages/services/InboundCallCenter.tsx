@@ -68,7 +68,7 @@ const InboundCallCenter = () => {
   return (
     <>
       <Helmet>
-        <title>Inbound Call Center Services | 24/7 Customer Support - Zap Technology</title>
+        <title>Inbound Call Center Services | 24/7 Customer Support - CallNexus</title>
         <meta
           name="description"
           content="Professional inbound call center services in India. 24/7 customer support, order processing, help desk, and multi-channel support to enhance customer satisfaction."

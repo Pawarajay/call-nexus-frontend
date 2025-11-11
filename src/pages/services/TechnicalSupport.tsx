@@ -45,7 +45,7 @@ const TechnicalSupport = () => {
   return (
     <>
       <Helmet>
-        <title>Technical Support Services | 24/7 IT Help Desk - Zap Technology</title>
+        <title>Technical Support Services | 24/7 IT Help Desk - CallNexus</title>
         <meta
           name="description"
           content="Professional technical support services with 24/7 availability. Expert IT help desk, remote support, troubleshooting, and maintenance for your customers."

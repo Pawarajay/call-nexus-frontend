@@ -46,12 +46,12 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
-              <span className="text-white font-bold text-xl">Z</span>
+              <span className="text-white font-bold text-xl">C</span>
             </div>
             <span className="text-xl font-heading font-bold gradient-text">
-              Zap Technology
+              CallNexus
             </span>
-          </Link>
+          </Link> 
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
@@ -80,7 +80,7 @@ const Navbar = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <a href="tel:+912212345678" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
               <Phone className="h-4 w-4" />
-              <span>+91 22 1234 5678</span>
+              <span>+91 72085 31038</span>
             </a>
             <Button asChild size="sm" className="rounded-full">
               <Link to="/contact">Get Started</Link>
@@ -127,7 +127,7 @@ const Navbar = () => {
               <div className="flex flex-col gap-3 pt-4 border-t">
                 <a href="tel:+912212345678" className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Phone className="h-4 w-4" />
-                  <span>+91 22 1234 5678</span>
+                  <span>+91 72085 31038</span>
                 </a>
                 <Button asChild size="sm" className="rounded-full w-full">
                   <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
