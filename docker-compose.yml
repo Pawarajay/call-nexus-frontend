@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  call-nexus-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: always
+    environment:
+      - NODE_ENV=production
+    # Optional volumes, depends on your app structure
+    # volumes:
+    #   - ./app:/app
+
+
+
+## sudo docker compose up --build
