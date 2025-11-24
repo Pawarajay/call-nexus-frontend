@@ -12,6 +12,7 @@ import OutboundCallCenter from "./pages/services/OutboundCallCenter";
 import TechnicalSupport from "./pages/services/TechnicalSupport";
 import VirtualAssistant from "./pages/services/VirtualAssistant";
 import OrderSalesSupport from "./pages/services/OrderSalesSupport";
+import TermsPrivacyPage from "./pages/TermsPrivacyPage"; // <-- import your new page
 
 const queryClient = new QueryClient();
 
@@ -30,7 +31,7 @@ const App = () => (
           <Route path="/services/technical-support" element={<TechnicalSupport />} />
           <Route path="/services/virtual-assistant" element={<VirtualAssistant />} />
           <Route path="/services/order-sales-support" element={<OrderSalesSupport />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/terms-privacy" element={<TermsPrivacyPage />} /> 
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
