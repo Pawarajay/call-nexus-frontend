@@ -10,10 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  {
-  "installCommand": "npm install"
-}
-
+  "vercel": {
+    "installCommand": "npm install"
+  },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.11",
