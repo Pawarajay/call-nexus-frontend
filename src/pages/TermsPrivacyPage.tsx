@@ -287,9 +287,9 @@ const privacy = [
     heading: "Contact Us",
     content: (
       <ul className="list-none pl-0 mt-2">
-        <li>📧 Email: [Your Email]</li>
-        <li>📞 Phone: [Your Number]</li>
-        <li>📍 Address: [Your Address]</li>
+        <li>Email: [ Email]</li>
+        <li> Phone: [ Number]</li>
+        <li> Address: [ Address]</li>
       </ul>
     ),
   },
