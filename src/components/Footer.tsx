@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import { Linkedin, Youtube, Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 // const Footer = () => {
@@ -142,6 +143,9 @@
 
 import { Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
+=======
+import {  Mail, Phone, MapPin } from "lucide-react";
+>>>>>>> 34a94b44a7fa3f28f0bfff7d637569a857ed05af
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
