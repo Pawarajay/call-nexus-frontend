@@ -367,13 +367,13 @@ const ContactPage = () => (
       </section>
 
       {/* Map Section - unchanged */}
-      <section className="py-16 bg-muted/30">
+      {/* <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-3xl overflow-hidden h-96 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
             <p className="text-muted-foreground">Interactive Map Placeholder - Integrate Google Maps</p>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
 
     <Footer />
